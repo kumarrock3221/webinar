@@ -1,0 +1,80 @@
+{
+  "start": "2022-05-04T16:50:11.172Z",
+  "end": "2022-05-04T16:50:12.083Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "101.0.4951.41",
+    "chrome": {
+      "chromedriverVersion": "101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904})",
+      "userDataDir": "/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/.com.google.Chrome.3ZRPFt"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:54259"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "eager",
+    "platformName": "mac os x",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "1350b035dc6af1270042ef2efc0b7063"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "https://localhost.adobe.com:8080/new",
+  "framework": "mocha",
+  "duration": 911,
+  "suites": [
+    {
+      "title": "Project X: Upload photo and change properties",
+      "duration": 1,
+      "start": "2022-05-04T16:50:11.176Z",
+      "end": "2022-05-04T16:50:11.177Z",
+      "tests": [
+        {
+          "title": "should land on Project X Canvas page",
+          "start": "2022-05-04T16:50:11.176Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "should upload a new photo to Canvas",
+          "start": "2022-05-04T16:50:11.177Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "should change fill color",
+          "start": "2022-05-04T16:50:11.177Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "should change opacity",
+          "start": "2022-05-04T16:50:11.177Z",
+          "duration": 0,
+          "state": "skipped"
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/src/specs/x.upload.photo.spec.ts"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 4
+  }
+}

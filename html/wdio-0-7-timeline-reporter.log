@@ -1,0 +1,123 @@
+{
+  "start": "2022-05-04T16:50:26.022Z",
+  "end": "2022-05-04T16:51:30.388Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "101.0.4951.41",
+    "chrome": {
+      "chromedriverVersion": "101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904})",
+      "userDataDir": "/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/.com.google.Chrome.gLt51w"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:54374"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "eager",
+    "platformName": "mac os x",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "d0b9f4270e4bff1e8bc1c21930847d73"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "https://localhost.adobe.com:8080/new",
+  "framework": "mocha",
+  "duration": 64366,
+  "suites": [
+    {
+      "title": "Project X: Zoom-In, Zoom-Out",
+      "duration": 63404,
+      "start": "2022-05-04T16:50:26.026Z",
+      "end": "2022-05-04T16:51:29.430Z",
+      "tests": [
+        {
+          "title": "should land on Project X Canvas page and place a rectangle",
+          "start": "2022-05-04T16:50:26.026Z",
+          "end": "2022-05-04T16:50:46.728Z",
+          "duration": 20702,
+          "state": "passed",
+          "screenshots": [
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683045519.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683046727.jpeg"
+          ]
+        },
+        {
+          "title": "should zoom-in zoom-out once",
+          "start": "2022-05-04T16:50:46.729Z",
+          "end": "2022-05-04T16:50:54.910Z",
+          "duration": 8181,
+          "state": "passed",
+          "screenshots": [
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683047674.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683049627.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683051606.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683053569.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683054909.jpeg"
+          ]
+        },
+        {
+          "title": "should zoom-in zoom-out twice",
+          "start": "2022-05-04T16:50:54.911Z",
+          "end": "2022-05-04T16:51:07.006Z",
+          "duration": 12095,
+          "state": "passed",
+          "screenshots": [
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683055872.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683057821.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683059758.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683061759.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683063726.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683065659.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683067005.jpeg"
+          ]
+        },
+        {
+          "title": "should zoom-in zoom-out thrice",
+          "start": "2022-05-04T16:51:07.007Z",
+          "end": "2022-05-04T16:51:23.255Z",
+          "duration": 16248,
+          "state": "passed",
+          "screenshots": [
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683067993.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683069962.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683071941.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683073872.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683075870.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683077926.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683079908.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683081895.jpeg",
+            "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/results/html/file-1651683083254.jpeg"
+          ]
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2022-05-04T16:51:23.257Z",
+          "end": "2022-05-04T16:51:29.430Z",
+          "duration": 6173,
+          "title": "\"after all\" hook for Project X: Zoom-In, Zoom-Out",
+          "associatedSuite": "Project X: Zoom-In, Zoom-Out"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/Users/canvas/Documents/Projects/hz/apps/project-x/e2e/src/specs/x.zoom.spec.ts"
+  ],
+  "state": {
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0
+  }
+}
